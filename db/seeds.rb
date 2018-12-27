@@ -6,24 +6,101 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-posts = [
-    { user_id: 1,
-      title: "Placeholder",
-      headline: "LIT",
-      body: "Tumblr chartreuse tbh vinyl iPhone. Chillwave church-key paleo quinoa post-ironic blog readymade VHS, enamel pin edison bulb austin blue bottle. Aesthetic enamel pin copper mug, raw denim crucifix YOLO hexagon la croix fingerstache tumblr taiyaki ramps drinking vinegar banjo umami. Portland quinoa shoreditch kombucha artisan 3 wolf moon marfa pop-up kogi jean shorts blog actually farm-to-table. Glossier fam meggings venmo, DIY VHS biodiesel poutine everyday carry cloud bread raclette taxidermy skateboard man bun. Wolf banh mi meggings truffaut hashtag polaroid locavore chillwave street art distillery cloud bread."
-    },
-    { user_id: 1,
-      title: "Text Post!",
-      headline: "LIT1",
-      body: "Jianbing echo park beard, locavore enamel pin photo booth leggings gluten-free vinyl lomo occupy poke af bushwick knausgaard. Wayfarers helvetica chambray slow-carb authentic edison bulb. Biodiesel cloud bread cronut viral ramps seitan, venmo put a bird on it twee beard. Vegan lo-fi 8-bit intelligentsia authentic echo park tilde meggings roof party yr. Craft beer meh man bun, sriracha master cleanse hot chicken authentic you probably haven't heard of them freegan fingerstache bushwick bespoke post-ironic adaptogen single-origin coffee."
-    },
-    { user_id: 1,
-      title: "Another Image",
-      headline: "yerr",
-      body: "Bitters af leggings, small batch palo santo typewriter ethical flexitarian photo booth lyft VHS bespoke listicle."}
-  ]
+User.destroy_all
+Post.destroy_all
+UserPost.destroy_all
 
-  user = User.create(first_name: "Steven", last_name: "Paulino", city:"Bronx", state:"New York", bio:"regular degular boy from the bronx")
+
+   User.create(first_name: "Steven", last_name: "Paulino", city:"Bronx", state:"New York", bio:"regular degular boy from the bronx", image:"https://static1.squarespace.com/static/587698341e5b6c7bb7482c55/t/58879a42f7e0abc9d8293be6/1485285074557/stevenpPortrait?format=1000w")
+   User.create(first_name: "Helen", last_name: "lo", city:"manhatten", state:"New York", bio:"regular degular boy from the bronx", image:"https://static1.squarespace.com/static/587698341e5b6c7bb7482c55/t/58879a42f7e0abc9d8293be6/1485285074557/stevenpPortrait?format=1000w")
+
+   User.create(first_name: "kat", last_name: "Alex", city:"miami", state:"New York", bio:"regular degular boy from the bronx", image:"https://static1.squarespace.com/static/587698341e5b6c7bb7482c55/t/58879a42f7e0abc9d8293be6/1485285074557/stevenpPortrait?format=1000w")
+   User.create(first_name: "gavin", last_name: "Alex", city:"miami", state:"New York", bio:"regular degular boy from the bronx", image:"https://static1.squarespace.com/static/587698341e5b6c7bb7482c55/t/58879a42f7e0abc9d8293be6/1485285074557/stevenpPortrait?format=1000w")
+
+
+   Post.create(
+    user_id:User.all.sample.id,
+    title:"Food and DOg",
+    headline: "lorem and stuff",
+    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    image:"https://intheweehours.files.wordpress.com/2013/10/photo-1-1-400x400.jpg?w=625"
+  )
+   Post.create(
+    user_id:User.all.sample.id,
+    title:"Food and DOg",
+    headline: "lorem and stuff",
+    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    image:"https://intheweehours.files.wordpress.com/2013/10/photo-1-1-400x400.jpg?w=625"
+  )
+   Post.create(
+    user_id:User.all.sample.id,
+    title:"Food and DOg",
+    headline: "lorem and stuff",
+    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    image:"https://intheweehours.files.wordpress.com/2013/10/photo-1-1-400x400.jpg?w=625"
+  )
+   Post.create(
+    user_id:User.all.sample.id,
+    title:"Food and DOg",
+    headline: "lorem and stuff",
+    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    image:"https://intheweehours.files.wordpress.com/2013/10/photo-1-1-400x400.jpg?w=625"
+  )
+   Post.create(
+    user_id:User.all.sample.id,
+    title:"Food and DOg",
+    headline: "lorem and stuff",
+    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    image:"https://intheweehours.files.wordpress.com/2013/10/photo-1-1-400x400.jpg?w=625"
+  )
+   Post.create(
+    user_id:User.all.sample.id,
+    title:"Food and DOg",
+    headline: "lorem and stuff",
+    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    image:"https://intheweehours.files.wordpress.com/2013/10/photo-1-1-400x400.jpg?w=625"
+  )
+   Post.create(
+    user_id:User.all.sample.id,
+    title:"Food and DOg",
+    headline: "lorem and stuff",
+    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    image:"https://intheweehours.files.wordpress.com/2013/10/photo-1-1-400x400.jpg?w=625"
+  )
+   Post.create(
+    user_id:User.all.sample.id,
+    title:"Food and DOg",
+    headline: "lorem and stuff",
+    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    image:"https://intheweehours.files.wordpress.com/2013/10/photo-1-1-400x400.jpg?w=625"
+  )
+   Post.create(
+    user_id:User.all.sample.id,
+    title:"Food and DOg",
+    headline: "lorem and stuff",
+    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    image:"https://intheweehours.files.wordpress.com/2013/10/photo-1-1-400x400.jpg?w=625"
+  )
+   Post.create(
+    user_id:User.all.sample.id,
+    title:"Food and DOg",
+    headline: "lorem and stuff",
+    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    image:"https://intheweehours.files.wordpress.com/2013/10/photo-1-1-400x400.jpg?w=625"
+  )
+
+
+    UserPost.create(user_id:User.all.sample.id, post_id: Post.all.sample.id)
+    UserPost.create(user_id:User.all.sample.id, post_id: Post.all.sample.id)
+    UserPost.create(user_id:User.all.sample.id, post_id: Post.all.sample.id)
+    UserPost.create(user_id:User.all.sample.id, post_id: Post.all.sample.id)
+    UserPost.create(user_id:User.all.sample.id, post_id: Post.all.sample.id)
+    UserPost.create(user_id:User.all.sample.id, post_id: Post.all.sample.id)
+    UserPost.create(user_id:User.all.sample.id, post_id: Post.all.sample.id)
+    UserPost.create(user_id:User.all.sample.id, post_id: Post.all.sample.id)
+    UserPost.create(user_id:User.all.sample.id, post_id: Post.all.sample.id)
+    UserPost.create(user_id:User.all.sample.id, post_id: Post.all.sample.id)
+
 
   # posts.each { |post|
   #   new_post = Post.create(post)
