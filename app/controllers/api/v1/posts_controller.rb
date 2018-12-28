@@ -4,7 +4,7 @@ class PostsController < ApplicationController
 
 
   def index
-    @posts= Post.all
+    @posts = Post.all
     render json: @posts
    end
 
@@ -18,8 +18,8 @@ class PostsController < ApplicationController
      @post = Post.new(post_params)
 
      if @post.save
-       # @user_post = UserPost.create(user: current_user, post: @post)
-       render json: @user_post, status: :created
+       # @user_post = UserPost.create(user: @user, post: @post)
+       render json: @post, status: :created
      else
        render json: @post.errors, status: :unprocessable_entity
      end

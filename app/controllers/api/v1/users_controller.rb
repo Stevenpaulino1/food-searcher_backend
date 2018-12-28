@@ -4,8 +4,8 @@ class UsersController < ApplicationController
 
 
   def index
-    # render json: User.includes(:posts), include: ['posts'], include: ['users']
-    render json: User.all
+    @users= User.all
+    render json: @users
   end
 
   # def show
