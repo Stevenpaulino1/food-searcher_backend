@@ -8,19 +8,19 @@ class UsersController < ApplicationController
     render json: @users
   end
 
-  # def show
-  #     render json: @user
-  # end
+  def show
+      render json: @user
+  end
 
   # POST /users
-  # def create
-  #     @user = User.create(user_params)
-  #     if @user.valid?
-  #         render json: {id: @user.id, first_name: @user.first_name}
-  #     else
-  #         render json: {error: 'WRONG'}, status: 422
-  #     end
-  # end
+  def create
+      @user = User.create(user_params)
+      if @user.valid?
+          render json: {id: @user.id, first_name: @user.first_name}
+      else
+          render json: {error: 'WRONG'}, status: 422
+      end
+  end
 
   # # PATCH/PUT /users/:id
   # def update
@@ -38,7 +38,7 @@ class UsersController < ApplicationController
 
 private
   def user_params
-    params.require(:user).permit(:first_name, :last_name, :city, :state, :bio)
+    params.require(:user).permit(:first_name, :last_name, :city, :state)
   end
 
     end
