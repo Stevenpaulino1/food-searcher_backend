@@ -23,70 +23,70 @@ UserPost.destroy_all
     title:"Food and DOg",
     headline: "lorem and stuff",
     body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    image:"https://intheweehours.files.wordpress.com/2013/10/photo-1-1-400x400.jpg?w=625"
+    src:"https://intheweehours.files.wordpress.com/2013/10/photo-1-1-400x400.jpg?w=625"
   )
    Post.create(
     user_id:User.all.sample.id,
     title:"Food and DOg",
     headline: "lorem and stuff",
     body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    image:"https://intheweehours.files.wordpress.com/2013/10/photo-1-1-400x400.jpg?w=625"
+    src:"https://intheweehours.files.wordpress.com/2013/10/photo-1-1-400x400.jpg?w=625"
   )
    Post.create(
     user_id:User.all.sample.id,
     title:"Food and DOg",
     headline: "lorem and stuff",
     body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    image:"https://intheweehours.files.wordpress.com/2013/10/photo-1-1-400x400.jpg?w=625"
+    src:"https://intheweehours.files.wordpress.com/2013/10/photo-1-1-400x400.jpg?w=625"
   )
    Post.create(
     user_id:User.all.sample.id,
     title:"Food and DOg",
     headline: "lorem and stuff",
     body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    image:"https://intheweehours.files.wordpress.com/2013/10/photo-1-1-400x400.jpg?w=625"
+    src:"https://intheweehours.files.wordpress.com/2013/10/photo-1-1-400x400.jpg?w=625"
   )
    Post.create(
     user_id:User.all.sample.id,
     title:"Food and DOg",
     headline: "lorem and stuff",
     body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    image:"https://intheweehours.files.wordpress.com/2013/10/photo-1-1-400x400.jpg?w=625"
+    src:"https://intheweehours.files.wordpress.com/2013/10/photo-1-1-400x400.jpg?w=625"
   )
    Post.create(
     user_id:User.all.sample.id,
     title:"Food and DOg",
     headline: "lorem and stuff",
     body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    image:"https://intheweehours.files.wordpress.com/2013/10/photo-1-1-400x400.jpg?w=625"
+    src:"https://intheweehours.files.wordpress.com/2013/10/photo-1-1-400x400.jpg?w=625"
   )
    Post.create(
     user_id:User.all.sample.id,
     title:"Food and DOg",
     headline: "lorem and stuff",
     body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    image:"https://intheweehours.files.wordpress.com/2013/10/photo-1-1-400x400.jpg?w=625"
+    src:"https://intheweehours.files.wordpress.com/2013/10/photo-1-1-400x400.jpg?w=625"
   )
    Post.create(
     user_id:User.all.sample.id,
     title:"Food and DOg",
     headline: "lorem and stuff",
     body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    image:"https://intheweehours.files.wordpress.com/2013/10/photo-1-1-400x400.jpg?w=625"
+    src:"https://intheweehours.files.wordpress.com/2013/10/photo-1-1-400x400.jpg?w=625"
   )
    Post.create(
     user_id:User.all.sample.id,
     title:"Food and DOg",
     headline: "lorem and stuff",
     body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    image:"https://intheweehours.files.wordpress.com/2013/10/photo-1-1-400x400.jpg?w=625"
+    src:"https://intheweehours.files.wordpress.com/2013/10/photo-1-1-400x400.jpg?w=625"
   )
    Post.create(
     user_id:User.all.sample.id,
     title:"Food and DOg",
     headline: "lorem and stuff",
     body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    image:"https://intheweehours.files.wordpress.com/2013/10/photo-1-1-400x400.jpg?w=625"
+    src:"https://intheweehours.files.wordpress.com/2013/10/photo-1-1-400x400.jpg?w=625"
   )
 
 
