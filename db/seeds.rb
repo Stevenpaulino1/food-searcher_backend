@@ -11,11 +11,11 @@ Post.destroy_all
 UserPost.destroy_all
 
 
-   User.create(first_name: "Steven", last_name: "Paulino", city:"Bronx", state:"New York", bio:"regular degular boy from the bronx", image:"https://static1.squarespace.com/static/587698341e5b6c7bb7482c55/t/58879a42f7e0abc9d8293be6/1485285074557/stevenpPortrait?format=1000w")
-   User.create(first_name: "Helen", last_name: "lo", city:"manhatten", state:"New York", bio:"regular degular boy from the bronx", image:"https://static1.squarespace.com/static/587698341e5b6c7bb7482c55/t/58879a42f7e0abc9d8293be6/1485285074557/stevenpPortrait?format=1000w")
+   User.create(first_name: "Steven", last_name: "Paulino", city:"Bronx", state:"New York", bio:"regular degular boy from the bronx",socialprofile:"https://www.instagram.com/avocadoappetit/", photoimage:"https://static1.squarespace.com/static/587698341e5b6c7bb7482c55/t/58879a42f7e0abc9d8293be6/1485285074557/stevenpPortrait?format=1000w")
+   User.create(first_name: "Helen", last_name: "lo", city:"manhatten", state:"New York", bio:"regular degular boy from the bronx",socialprofile:"https://www.instagram.com/avocadoappetit/", photoimage:"https://static1.squarespace.com/static/587698341e5b6c7bb7482c55/t/58879a42f7e0abc9d8293be6/1485285074557/stevenpPortrait?format=1000w")
 
-   User.create(first_name: "kat", last_name: "Alex", city:"miami", state:"New York", bio:"regular degular boy from the bronx", image:"https://static1.squarespace.com/static/587698341e5b6c7bb7482c55/t/58879a42f7e0abc9d8293be6/1485285074557/stevenpPortrait?format=1000w")
-   User.create(first_name: "gavin", last_name: "Alex", city:"miami", state:"New York", bio:"regular degular boy from the bronx", image:"https://static1.squarespace.com/static/587698341e5b6c7bb7482c55/t/58879a42f7e0abc9d8293be6/1485285074557/stevenpPortrait?format=1000w")
+   User.create(first_name: "kat", last_name: "Alex", city:"miami", state:"New York", bio:"regular degular boy from the bronx",socialprofile:"https://www.instagram.com/avocadoappetit/", photoimage:"https://static1.squarespace.com/static/587698341e5b6c7bb7482c55/t/58879a42f7e0abc9d8293be6/1485285074557/stevenpPortrait?format=1000w")
+   User.create(first_name: "gavin", last_name: "Alex", city:"miami", state:"New York", bio:"regular degular boy from the bronx",socialprofile:"https://www.instagram.com/avocadoappetit/", photoimage:"https://static1.squarespace.com/static/587698341e5b6c7bb7482c55/t/58879a42f7e0abc9d8293be6/1485285074557/stevenpPortrait?format=1000w")
 
 
    Post.create(

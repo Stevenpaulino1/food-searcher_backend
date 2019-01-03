@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_01_02_193421) do
+ActiveRecord::Schema.define(version: 2019_01_03_161231) do
 
   create_table "posts", force: :cascade do |t|
     t.integer "user_id"
@@ -34,10 +34,11 @@ ActiveRecord::Schema.define(version: 2019_01_02_193421) do
     t.string "last_name"
     t.string "city"
     t.string "state"
-    t.string "image"
+    t.string "photoimage"
     t.string "bio"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "socialprofile"
   end
 
 end
